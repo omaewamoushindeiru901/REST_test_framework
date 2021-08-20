@@ -1,0 +1,182 @@
+{
+  "uid" : "c7b56a0e3795666",
+  "name" : "verifyPostBookWrong",
+  "fullName" : "BookTests.verifyPostBookWrong",
+  "historyId" : "c24a7ce17bdeb6b44bf117b300398b8",
+  "time" : {
+    "start" : 1629105311738,
+    "stop" : 1629105311862,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629105305228,
+      "stop" : 1629105306678,
+      "duration" : 1450
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629105311738,
+        "stop" : 1629105311767,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createGenre",
+      "time" : {
+        "start" : 1629105311771,
+        "stop" : 1629105311795,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createBookWrong",
+      "time" : {
+        "start" : 1629105311800,
+        "stop" : 1629105311822,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "/BookWrong.json"
+      }, {
+        "name" : "authorId",
+        "value" : "0"
+      }, {
+        "name" : "genreId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629105311824,
+        "stop" : 1629105311842,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629105311842,
+        "stop" : 1629105311862,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genre"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostBookWrong"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "BookTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "916@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7b56a0e3795666.json",
+  "parameterValues" : [ ]
+}

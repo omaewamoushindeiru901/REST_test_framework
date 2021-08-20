@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 17 22:35:43 EEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13625 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Alb</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Broderick</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchBookAuthor()'><b>verifySearchBookAuthor</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='BookTests.verifyBooksOfSpecialAuthor()'><b>verifyBooksOfSpecialAuthor</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Cordia</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='GenreTests.verifyGetGenreById()'><b>verifyGetGenreById</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='AuthorTests.verifyPostAuthorWrong()'><b>verifyPostAuthorWrong</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='GenreTests.verifyPostGenreWrong()'><b>verifyPostGenreWrong</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='BookTests.verifyUpdateBook()'><b>verifyUpdateBook</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='BookTests.verifyGetAllBooks()'><b>verifyGetAllBooks</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='GenreTests.verifyGetAllGenres()'><b>verifyGetAllGenres</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='GenreTests.verifyPostGenre()'><b>verifyPostGenre</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='AuthorTests.verifyGetAllAuthors()'><b>verifyGetAllAuthors</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Kelli</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifyGetAuthorById()'><b>verifyGetAuthorById</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='BookTests.VerifyDeleteBook()'><b>VerifyDeleteBook</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='BookTests.verifyPostBookWrong()'><b>verifyPostBookWrong</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Josiah</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifyDeleteAuthor()'><b>verifyDeleteAuthor</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>9</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='AuthorTests.verifySearchAuthorsByName()'><b>verifySearchAuthorsByName</b><br>Test class: AuthorTests<br>Parameters: Kam</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='GenreTests.VerifyDeleteGenre()'><b>VerifyDeleteGenre</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='AuthorTests.verifyPostAuthor()'><b>verifyPostAuthor</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='GenreTests.verifyUpdateGenre()'><b>verifyUpdateGenre</b><br>Test class: GenreTests</td>
+<td></td>
+<td>0</td>
+<td>GenreTests@3eb631b8</td></tr>
+<tr>
+<td title='BookTests.verifyPostBook()'><b>verifyPostBook</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+<tr>
+<td title='AuthorTests.verifyUpdateAuthor()'><b>verifyUpdateAuthor</b><br>Test class: AuthorTests</td>
+<td></td>
+<td>0</td>
+<td>AuthorTests@4159e81b</td></tr>
+<tr>
+<td title='BookTests.verifyGetBookById()'><b>verifyGetBookById</b><br>Test class: BookTests</td>
+<td></td>
+<td>0</td>
+<td>BookTests@6719a5b8</td></tr>
+</table><p>
+</body>
+</html>

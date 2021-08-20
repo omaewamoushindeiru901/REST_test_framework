@@ -1,0 +1,110 @@
+{
+  "uid" : "29c3abd207dec93",
+  "name" : "verifySearchAuthorsByName",
+  "fullName" : "AuthorTests.verifySearchAuthorsByName",
+  "historyId" : "ba03188173b1607041155723690109a3",
+  "time" : {
+    "start" : 1629104997910,
+    "stop" : 1629104997963,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629104993269,
+      "stop" : 1629104994463,
+      "duration" : 1194
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "getEntityByNameSearch",
+      "time" : {
+        "start" : 1629104997910,
+        "stop" : 1629104997959,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "authors"
+      }, {
+        "name" : "search",
+        "value" : "Cordia"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySearchAuthorsByName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TA_SS_REST_test_framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "9252@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Cordia"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29c3abd207dec93.json",
+  "parameterValues" : [ "Cordia" ]
+}

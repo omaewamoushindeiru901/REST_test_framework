@@ -1,0 +1,140 @@
+{
+  "uid" : "9db8ed59fd6d4cfc",
+  "name" : "verifyPostGenre",
+  "fullName" : "GenreTests.verifyPostGenre",
+  "historyId" : "5468ad22ed9a0b165412aa22cbfa4e60",
+  "time" : {
+    "start" : 1629104534566,
+    "stop" : 1629104534629,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629104530379,
+      "stop" : 1629104531346,
+      "duration" : 967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createGenre",
+      "time" : {
+        "start" : 1629104534566,
+        "stop" : 1629104534598,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "compareGenre",
+      "time" : {
+        "start" : 1629104534599,
+        "stop" : 1629104534605,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "createdGenre",
+        "value" : "entity.Genre@30d15e4a"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629104534607,
+        "stop" : 1629104534629,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genre"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testClass",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostGenre"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TA_SS_REST_test_framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "GenreTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "4376@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9db8ed59fd6d4cfc.json",
+  "parameterValues" : [ ]
+}

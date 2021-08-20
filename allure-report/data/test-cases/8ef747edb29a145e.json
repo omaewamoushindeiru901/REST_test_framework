@@ -1,0 +1,124 @@
+{
+  "uid" : "8ef747edb29a145e",
+  "name" : "verifyPostGenre",
+  "fullName" : "GenreTests.verifyPostGenre",
+  "historyId" : "5468ad22ed9a0b165412aa22cbfa4e60",
+  "time" : {
+    "start" : 1629107460961,
+    "stop" : 1629107461005,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createGenre",
+      "time" : {
+        "start" : 1629107460961,
+        "stop" : 1629107460979,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "compareGenre",
+      "time" : {
+        "start" : 1629107460981,
+        "stop" : 1629107460981,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "createdGenre",
+        "value" : "entity.Genre@2a4e939a"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629107460985,
+        "stop" : 1629107461005,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genre"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testClass",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostGenre"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GenreTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "10596@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ef747edb29a145e.json",
+  "parameterValues" : [ ]
+}

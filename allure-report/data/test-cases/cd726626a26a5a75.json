@@ -1,0 +1,140 @@
+{
+  "uid" : "cd726626a26a5a75",
+  "name" : "verifyUpdateAuthor",
+  "fullName" : "AuthorTests.verifyUpdateAuthor",
+  "historyId" : "67dfa357ae167f0c30a0ce1fc4cfea76",
+  "time" : {
+    "start" : 1629103633840,
+    "stop" : 1629103636580,
+    "duration" : 2740
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629103631831,
+      "stop" : 1629103633725,
+      "duration" : 1894
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629103633865,
+        "stop" : 1629103636387,
+        "duration" : 2522
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "updateAuthor",
+      "time" : {
+        "start" : 1629103636389,
+        "stop" : 1629103636463,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "response.BaseResponse@5aab5b31"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629103636520,
+        "stop" : 1629103636574,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUpdateAuthor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TA_SS_REST_test_framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "10580@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd726626a26a5a75.json",
+  "parameterValues" : [ ]
+}

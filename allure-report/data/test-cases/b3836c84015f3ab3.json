@@ -1,0 +1,76 @@
+{
+  "uid" : "b3836c84015f3ab3",
+  "name" : "verifyUpdateGenre",
+  "fullName" : "GenreTests.verifyUpdateGenre",
+  "historyId" : "881ad2e8026881ca7fc38f7d8a9dc930",
+  "time" : {
+    "start" : 1629059192943,
+    "stop" : 1629059192993,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629059186430,
+      "stop" : 1629059187448,
+      "duration" : 1018
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testClass",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUpdateGenre"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "GenreTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "9988@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3836c84015f3ab3.json",
+  "parameterValues" : [ ]
+}

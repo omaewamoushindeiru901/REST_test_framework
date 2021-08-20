@@ -1,0 +1,76 @@
+{
+  "uid" : "b07cdc22fb1bc3f5",
+  "name" : "VerifyDeleteBook",
+  "fullName" : "BookTests.VerifyDeleteBook",
+  "historyId" : "4fa6bce369b6f747cc43e4b97280a467",
+  "time" : {
+    "start" : 1629058753038,
+    "stop" : 1629058753288,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629058748279,
+      "stop" : 1629058749447,
+      "duration" : 1168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyDeleteBook"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "BookTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "7856@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b07cdc22fb1bc3f5.json",
+  "parameterValues" : [ ]
+}

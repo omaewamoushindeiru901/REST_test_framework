@@ -1,0 +1,79 @@
+{
+  "uid" : "1c03ccd018f2c8ff",
+  "name" : "verifySearchBookAuthor",
+  "fullName" : "AuthorTests.verifySearchBookAuthor",
+  "historyId" : "5e6f2363633e6d1582a36fcaf80ba29b",
+  "time" : {
+    "start" : 1629058752809,
+    "stop" : 1629058752823,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629058748279,
+      "stop" : 1629058749447,
+      "duration" : 1168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySearchBookAuthor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "7856@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "331"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c03ccd018f2c8ff.json",
+  "parameterValues" : [ "331" ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "256e1e88f56ccd58",
+  "name" : "verifyPostAuthorWrong",
+  "fullName" : "AuthorTests.verifyPostAuthorWrong",
+  "historyId" : "4701453486949be58b2c331aac50eb8b",
+  "time" : {
+    "start" : 1629105310523,
+    "stop" : 1629105310555,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629105305228,
+      "stop" : 1629105306678,
+      "duration" : 1450
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createEntity",
+      "time" : {
+        "start" : 1629105310524,
+        "stop" : 1629105310553,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "{\"authorId\":0,\"authorName\":{\"first\":\"Joseph\"},\"nationality\":\"american\",\"birth\":{\"date\":\"1920-09-27\",\"country\":\"America\",\"city\":\"New-York\"},\"authorDescription\":\"The best jojo ever\"}"
+      }, {
+        "name" : "path",
+        "value" : "author"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostAuthorWrong"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "916@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "256e1e88f56ccd58.json",
+  "parameterValues" : [ ]
+}

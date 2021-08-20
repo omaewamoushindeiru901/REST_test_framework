@@ -1,0 +1,128 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.362 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '17' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "929ef65ca70277bb",
+        "parentUid" : "23959d0be3f2b4ea8a4d189b07d3fc56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728341,
+          "stop" : 1629056728369,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "17" ]
+      } ],
+      "uid" : "23959d0be3f2b4ea8a4d189b07d3fc56"
+    }, {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.399 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '237' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "fde94548ceea57ed",
+        "parentUid" : "2ef62d66c30f3f107784149fa74a8ea3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728378,
+          "stop" : 1629056728401,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "237" ]
+      } ],
+      "uid" : "2ef62d66c30f3f107784149fa74a8ea3"
+    }, {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.428 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '446' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "1d4b8d08f74dae3c",
+        "parentUid" : "1807b1a2dc9237335be8388d35965ae4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728406,
+          "stop" : 1629056728431,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "446" ]
+      } ],
+      "uid" : "1807b1a2dc9237335be8388d35965ae4"
+    }, {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.168 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '288' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "b00b8c4b996fda16",
+        "parentUid" : "714629c4f7adb3c7bf3effa296b1247b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549150,
+          "stop" : 1629104549182,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      } ],
+      "uid" : "714629c4f7adb3c7bf3effa296b1247b"
+    }, {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.203 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '331' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "412099d6bea47623",
+        "parentUid" : "3fcc3acfadea6fe222abb4f5e4266269",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549186,
+          "stop" : 1629104549206,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      } ],
+      "uid" : "3fcc3acfadea6fe222abb4f5e4266269"
+    }, {
+      "name" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.225 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '355' doesn't exist!\"}' expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "bbe2eeacd13c3486",
+        "parentUid" : "77799607e09c0a280fb0ef125e2f8818",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549210,
+          "stop" : 1629104549228,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      } ],
+      "uid" : "77799607e09c0a280fb0ef125e2f8818"
+    }, {
+      "name" : "\nStatus code is: '405'\nResponse: '{\"timeStamp\":\"14:32:59.509 16-08-2021\",\"statusCode\":405,\"error\":\"Method Not Allowed\",\"errorMessage\":\"Method 'GET' mapped by '/api/library/author' not supported!\"}' expected [200] but found [405]",
+      "children" : [ {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "93b3de10cf81a1f2",
+        "parentUid" : "b5b308bd2d37675f7a8ba25bea66bcb3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629113579480,
+          "stop" : 1629113579533,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5b308bd2d37675f7a8ba25bea66bcb3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

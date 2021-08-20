@@ -1,0 +1,82 @@
+{
+  "uid" : "6dc579ced3245df3",
+  "name" : "verifyUpdateBook",
+  "fullName" : "BookTests.verifyUpdateBook",
+  "historyId" : "454fa9322a1f2b3fc7ac59e645021dce",
+  "time" : {
+    "start" : 1629058754231,
+    "stop" : 1629058754391,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629058748279,
+      "stop" : 1629058749447,
+      "duration" : 1168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUpdateBook"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "BookTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "7856@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "bookLanguage"
+  }, {
+    "name" : "arg1",
+    "value" : "japanese"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dc579ced3245df3.json",
+  "parameterValues" : [ "bookLanguage", "japanese" ]
+}

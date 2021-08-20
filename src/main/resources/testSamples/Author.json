@@ -1,0 +1,14 @@
+{
+  "authorId": 0,
+  "authorName": {
+    "first": "Joseph",
+    "second": "Joestar"
+  },
+  "nationality": "american",
+  "birth": {
+    "date": "1920-09-27",
+    "country": "America",
+    "city": "New-York"
+  },
+  "authorDescription": "The best jojo ever"
+}

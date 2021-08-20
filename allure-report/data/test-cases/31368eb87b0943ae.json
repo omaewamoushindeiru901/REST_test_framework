@@ -1,0 +1,104 @@
+{
+  "uid" : "31368eb87b0943ae",
+  "name" : "verifyGetAllGenres",
+  "fullName" : "GenreTests.verifyGetAllGenres",
+  "historyId" : "3dc6ef80cefe4744eafadbcddc14c827",
+  "time" : {
+    "start" : 1629104534343,
+    "stop" : 1629104534369,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629104530379,
+      "stop" : 1629104531346,
+      "duration" : 967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "getAllEntities",
+      "time" : {
+        "start" : 1629104534344,
+        "stop" : 1629104534368,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genres"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testClass",
+    "value" : "GenreTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyGetAllGenres"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TA_SS_REST_test_framework"
+  }, {
+    "name" : "subSuite",
+    "value" : "GenreTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "4376@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31368eb87b0943ae.json",
+  "parameterValues" : [ ]
+}

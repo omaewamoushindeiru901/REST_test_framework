@@ -1,0 +1,341 @@
+[ {
+  "uid" : "7d86c68806569728",
+  "name" : "verifySearchAuthorsByName",
+  "time" : {
+    "start" : 1629113579985,
+    "stop" : 1629113580002,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "381f940c84d9fb38",
+  "name" : "verifyPostGenre",
+  "time" : {
+    "start" : 1629113581319,
+    "stop" : 1629113581357,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7b36c29a94a6930",
+  "name" : "VerifyDeleteBook",
+  "time" : {
+    "start" : 1629113580362,
+    "stop" : 1629113580525,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dde084ca4ff3f62",
+  "name" : "verifyPostBookWrong",
+  "time" : {
+    "start" : 1629113581017,
+    "stop" : 1629113581101,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "effb181aeef2be91",
+  "name" : "verifyGetAllGenres",
+  "time" : {
+    "start" : 1629113581244,
+    "stop" : 1629113581259,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af909f76a0dfc11b",
+  "name" : "verifyPostAuthorWrong",
+  "time" : {
+    "start" : 1629113579885,
+    "stop" : 1629113579904,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9d117d2a71052de",
+  "name" : "verifyUpdateBook",
+  "time" : {
+    "start" : 1629113581107,
+    "stop" : 1629113581204,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d4b8d08f74dae3c",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629056728406,
+    "stop" : 1629056728431,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "93b3de10cf81a1f2",
+  "name" : "verifyGetAllAuthors",
+  "time" : {
+    "start" : 1629113579480,
+    "stop" : 1629113579533,
+    "duration" : 53
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "430fe66866b2d533",
+  "name" : "verifyBooksOfSpecialAuthor",
+  "time" : {
+    "start" : 1629113580530,
+    "stop" : 1629113580702,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e23d7f5898dc7589",
+  "name" : "verifyUpdateBook",
+  "time" : {
+    "start" : 1629059791148,
+    "stop" : 1629059791306,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a440cecf3f4fb7ae",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629113580036,
+    "stop" : 1629113580281,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "259d78e335c08043",
+  "name" : "verifyPostAuthor",
+  "time" : {
+    "start" : 1629113579641,
+    "stop" : 1629113579881,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d660508db316d13",
+  "name" : "VerifyDeleteGenre",
+  "time" : {
+    "start" : 1629113581208,
+    "stop" : 1629113581239,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "464d1d038f5159e1",
+  "name" : "verifyUpdateAuthor",
+  "time" : {
+    "start" : 1629059789923,
+    "stop" : 1629059790013,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "217abc358bee696",
+  "name" : "verifyGetAuthorById",
+  "time" : {
+    "start" : 1629113579538,
+    "stop" : 1629113579637,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1476c82a2b82a54a",
+  "name" : "delete",
+  "time" : {
+    "start" : 1629057045661,
+    "stop" : 1629057047226,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "929ef65ca70277bb",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629056728341,
+    "stop" : 1629056728369,
+    "duration" : 28
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7398fdb6db7ab01c",
+  "name" : "verifyGetBookById",
+  "time" : {
+    "start" : 1629113580732,
+    "stop" : 1629113580896,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b00b8c4b996fda16",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629104549150,
+    "stop" : 1629104549182,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "772402acd05f8c7a",
+  "name" : "verifyDeleteAuthor",
+  "time" : {
+    "start" : 1629113575605,
+    "stop" : 1629113579437,
+    "duration" : 3832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "827ef7038fb6c455",
+  "name" : "verifyGetAllBooks",
+  "time" : {
+    "start" : 1629113580707,
+    "stop" : 1629113580726,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "412099d6bea47623",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629104549186,
+    "stop" : 1629104549206,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "350e71e8caca95cc",
+  "name" : "verifyUpdateGenre",
+  "time" : {
+    "start" : 1629113581385,
+    "stop" : 1629113581437,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75f101a7a5335812",
+  "name" : "verifyPostGenreWrong",
+  "time" : {
+    "start" : 1629113581364,
+    "stop" : 1629113581381,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c9954aec6fd388",
+  "name" : "verifyPostBook",
+  "time" : {
+    "start" : 1629113580901,
+    "stop" : 1629113581013,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f157f07357cd74",
+  "name" : "verifySearchAuthorsByName",
+  "time" : {
+    "start" : 1629113580007,
+    "stop" : 1629113580032,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f1ee9c527a61b52",
+  "name" : "verifyUpdateAuthor",
+  "time" : {
+    "start" : 1629113580286,
+    "stop" : 1629113580357,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "473ea97c01d734ec",
+  "name" : "verifyUpdateAuthor",
+  "time" : {
+    "start" : 1629059789594,
+    "stop" : 1629059789918,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c65cdef934ebc33",
+  "name" : "verifyGetGenreById",
+  "time" : {
+    "start" : 1629113581263,
+    "stop" : 1629113581315,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fde94548ceea57ed",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629056728378,
+    "stop" : 1629056728401,
+    "duration" : 23
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb572394018dbb02",
+  "name" : "verifySearchAuthorsByName",
+  "time" : {
+    "start" : 1629113579921,
+    "stop" : 1629113579980,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce1555881f2089f0",
+  "name" : "verifyUpdateBook",
+  "time" : {
+    "start" : 1629059791309,
+    "stop" : 1629059791477,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbe2eeacd13c3486",
+  "name" : "verifySearchBookAuthor",
+  "time" : {
+    "start" : 1629104549210,
+    "stop" : 1629104549228,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

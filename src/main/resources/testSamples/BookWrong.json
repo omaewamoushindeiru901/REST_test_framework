@@ -1,0 +1,13 @@
+{
+  "bookId": "2",
+  "bookName": "JOJO Bizarre Adventure",
+  "bookLanguage": 3,
+  "bookDescription": "Battle Tendency",
+  "additional": {
+    "pageCount": 0,
+    "size": {
+      "height": 0,
+      "length": 0
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "uid" : "c7b36c29a94a6930",
+  "name" : "VerifyDeleteBook",
+  "fullName" : "BookTests.VerifyDeleteBook",
+  "historyId" : "4fa6bce369b6f747cc43e4b97280a467",
+  "time" : {
+    "start" : 1629113580362,
+    "stop" : 1629113580525,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629113580362,
+        "stop" : 1629113580388,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createGenre",
+      "time" : {
+        "start" : 1629113580394,
+        "stop" : 1629113580415,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createBook",
+      "time" : {
+        "start" : 1629113580417,
+        "stop" : 1629113580444,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "authorId",
+        "value" : "0"
+      }, {
+        "name" : "genreId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "compareBook",
+      "time" : {
+        "start" : 1629113580448,
+        "stop" : 1629113580450,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "createdBook",
+        "value" : "entity.book.Book@1850f2da"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113580453,
+        "stop" : 1629113580472,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "book"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113580472,
+        "stop" : 1629113580494,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113580494,
+        "stop" : 1629113580523,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genre"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyDeleteBook"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "BookTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c81780221f6220fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110374896,
+        "stop" : 1629110375052,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "5c931cd4669d44f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109760083,
+        "stop" : 1629109760210,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "517efa4858d7c475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107459707,
+        "stop" : 1629107459891,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "203256ac96a7f1a9",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107336666,
+        "stop" : 1629107340735,
+        "duration" : 4069
+      }
+    }, {
+      "uid" : "fa8ee0aef75afb04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105310972,
+        "stop" : 1629105311135,
+        "duration" : 163
+      }
+    }, {
+      "uid" : "778021c97450f2b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059790018,
+        "stop" : 1629059790247,
+        "duration" : 229
+      }
+    }, {
+      "uid" : "b24c77c6725bba20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059191648,
+        "stop" : 1629059191797,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "b07cdc22fb1bc3f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058753038,
+        "stop" : 1629058753288,
+        "duration" : 250
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7b36c29a94a6930.json",
+  "parameterValues" : [ ]
+}

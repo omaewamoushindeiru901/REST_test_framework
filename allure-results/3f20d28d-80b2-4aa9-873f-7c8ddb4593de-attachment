@@ -1,0 +1,3 @@
+Status code: 201
+Body:
+{"genreId":0,"genreName":"Adventure","genreDescription":"Bizarre adventures"}

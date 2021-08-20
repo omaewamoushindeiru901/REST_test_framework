@@ -1,0 +1,202 @@
+{
+  "uid" : "3f1ee9c527a61b52",
+  "name" : "verifyUpdateAuthor",
+  "fullName" : "AuthorTests.verifyUpdateAuthor",
+  "historyId" : "67dfa357ae167f0c30a0ce1fc4cfea76",
+  "time" : {
+    "start" : 1629113580286,
+    "stop" : 1629113580357,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629113580286,
+        "stop" : 1629113580311,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "updateEntity",
+      "time" : {
+        "start" : 1629113580311,
+        "stop" : 1629113580327,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "response.BaseResponse@71ad959b"
+      }, {
+        "name" : "path",
+        "value" : "author"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113580333,
+        "stop" : 1629113580355,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUpdateAuthor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48ba3a83cf361073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110374809,
+        "stop" : 1629110374892,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "e3addbd52afe8efb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109760024,
+        "stop" : 1629109760080,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "56324c62c6ced46f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107459624,
+        "stop" : 1629107459702,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "c0cd25c238648367",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107332590,
+        "stop" : 1629107336659,
+        "duration" : 4069
+      }
+    }, {
+      "uid" : "2cee7ef5499c407b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105310891,
+        "stop" : 1629105310968,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "57184b1e42461b02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105026942,
+        "stop" : 1629105027038,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "deeb0af3be71fd5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104998038,
+        "stop" : 1629104998109,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "36407ccccf318317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104549232,
+        "stop" : 1629104549319,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "cd726626a26a5a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629103633840,
+        "stop" : 1629103636580,
+        "duration" : 2740
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f1ee9c527a61b52.json",
+  "parameterValues" : [ ]
+}

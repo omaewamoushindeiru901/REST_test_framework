@@ -1,0 +1,237 @@
+{
+  "uid" : "772402acd05f8c7a",
+  "name" : "verifyDeleteAuthor",
+  "fullName" : "AuthorTests.verifyDeleteAuthor",
+  "historyId" : "dd27a7673de2c7400f181980cc439c30",
+  "time" : {
+    "start" : 1629113575605,
+    "stop" : 1629113579437,
+    "duration" : 3832
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629113575664,
+        "stop" : 1629113579269,
+        "duration" : 3605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113579356,
+        "stop" : 1629113579424,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyDeleteAuthor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8a2dcd1be97a34c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110369672,
+        "stop" : 1629110373563,
+        "duration" : 3891
+      }
+    }, {
+      "uid" : "9f35b09c5890c1c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109755638,
+        "stop" : 1629109759162,
+        "duration" : 3524
+      }
+    }, {
+      "uid" : "ddac3f573757595b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107452446,
+        "stop" : 1629107458363,
+        "duration" : 5917
+      }
+    }, {
+      "uid" : "4bce9410b4683030",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107292410,
+        "stop" : 1629107299795,
+        "duration" : 7385
+      }
+    }, {
+      "uid" : "de0ed206421fa4d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105306800,
+        "stop" : 1629105310081,
+        "duration" : 3281
+      }
+    }, {
+      "uid" : "14da7a9bfcf10585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105022716,
+        "stop" : 1629105025821,
+        "duration" : 3105
+      }
+    }, {
+      "uid" : "4b1d8ae88c9de190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104994563,
+        "stop" : 1629104997466,
+        "duration" : 2903
+      }
+    }, {
+      "uid" : "55b70bd9e234912d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104545611,
+        "stop" : 1629104548231,
+        "duration" : 2620
+      }
+    }, {
+      "uid" : "2b11f7b2ab564dee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059785919,
+        "stop" : 1629059788811,
+        "duration" : 2892
+      }
+    }, {
+      "uid" : "a6be268a4ec83626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059329853,
+        "stop" : 1629059333061,
+        "duration" : 3208
+      }
+    }, {
+      "uid" : "f23d7a46611131f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059187557,
+        "stop" : 1629059190715,
+        "duration" : 3158
+      }
+    }, {
+      "uid" : "cf1f22f1e2fa17c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058749550,
+        "stop" : 1629058752145,
+        "duration" : 2595
+      }
+    }, {
+      "uid" : "aae61de9de0b9ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058503233,
+        "stop" : 1629058505269,
+        "duration" : 2036
+      }
+    }, {
+      "uid" : "5298663e5d903e3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058369500,
+        "stop" : 1629058371580,
+        "duration" : 2080
+      }
+    }, {
+      "uid" : "faf814facfd860ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629057047309,
+        "stop" : 1629057048096,
+        "duration" : 787
+      }
+    }, {
+      "uid" : "264429e33b0c872e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629056724818,
+        "stop" : 1629056727906,
+        "duration" : 3088
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "772402acd05f8c7a.json",
+  "parameterValues" : [ ]
+}

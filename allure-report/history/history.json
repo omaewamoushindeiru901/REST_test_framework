@@ -1,0 +1,655 @@
+{
+  "21371acd109f3bcad588d83f3d6ac727" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75f101a7a5335812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581364,
+        "stop" : 1629113581381,
+        "duration" : 17
+      }
+    } ]
+  },
+  "8805a263d175c7dba62cca3aba01df78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "259d78e335c08043",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113579641,
+        "stop" : 1629113579881,
+        "duration" : 240
+      }
+    } ]
+  },
+  "afd36a2b7c52fd3693f4b9f1c33b9c4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f157f07357cd74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580007,
+        "stop" : 1629113580032,
+        "duration" : 25
+      }
+    } ]
+  },
+  "5468ad22ed9a0b165412aa22cbfa4e60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "381f940c84d9fb38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581319,
+        "stop" : 1629113581357,
+        "duration" : 38
+      }
+    } ]
+  },
+  "4fa6bce369b6f747cc43e4b97280a467" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7b36c29a94a6930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580362,
+        "stop" : 1629113580525,
+        "duration" : 163
+      }
+    } ]
+  },
+  "bdf135c65c250c1dc31ed69f8256969" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3c9954aec6fd388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580901,
+        "stop" : 1629113581013,
+        "duration" : 112
+      }
+    } ]
+  },
+  "8940d3cc789a7da8454f3c00e202a250" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c65cdef934ebc33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581263,
+        "stop" : 1629113581315,
+        "duration" : 52
+      }
+    } ]
+  },
+  "7baa0828bd8f9fa188e3b89d015f1e26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "473ea97c01d734ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059789594,
+        "stop" : 1629059789918,
+        "duration" : 324
+      }
+    } ]
+  },
+  "3e70bedbc190d3b76040e5dd4a23a93d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbe2eeacd13c3486",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.225 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '355' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629104549210,
+        "stop" : 1629104549228,
+        "duration" : 18
+      }
+    } ]
+  },
+  "6aca15ed08f2442e5208de6a65dcaaa6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "929ef65ca70277bb",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.362 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '17' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629056728341,
+        "stop" : 1629056728369,
+        "duration" : 28
+      }
+    } ]
+  },
+  "f0b085c780a3ed1814ab5505607afeff" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b00b8c4b996fda16",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.168 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '288' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629104549150,
+        "stop" : 1629104549182,
+        "duration" : 32
+      }
+    } ]
+  },
+  "dd27a7673de2c7400f181980cc439c30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "772402acd05f8c7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113575605,
+        "stop" : 1629113579437,
+        "duration" : 3832
+      }
+    } ]
+  },
+  "8a7b26b98a3ef0c0ad985def091ce558" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a440cecf3f4fb7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580036,
+        "stop" : 1629113580281,
+        "duration" : 245
+      }
+    } ]
+  },
+  "42dcfd5612fd9582e49aea32a263d0c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d86c68806569728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113579985,
+        "stop" : 1629113580002,
+        "duration" : 17
+      }
+    } ]
+  },
+  "1d3bcbbcf107e3f3a69a29d8702b6ce3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "827ef7038fb6c455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580707,
+        "stop" : 1629113580726,
+        "duration" : 19
+      }
+    } ]
+  },
+  "ba03188173b1607041155723690109a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb572394018dbb02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113579921,
+        "stop" : 1629113579980,
+        "duration" : 59
+      }
+    } ]
+  },
+  "a3ebcbd4b8dc146bf1d9bc22698e41cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "430fe66866b2d533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580530,
+        "stop" : 1629113580702,
+        "duration" : 172
+      }
+    } ]
+  },
+  "454fa9322a1f2b3fc7ac59e645021dce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce1555881f2089f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059791309,
+        "stop" : 1629059791477,
+        "duration" : 168
+      }
+    } ]
+  },
+  "bcb3dec1544535d16e92b090d0363795" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9d117d2a71052de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581107,
+        "stop" : 1629113581204,
+        "duration" : 97
+      }
+    } ]
+  },
+  "c24a7ce17bdeb6b44bf117b300398b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dde084ca4ff3f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581017,
+        "stop" : 1629113581101,
+        "duration" : 84
+      }
+    } ]
+  },
+  "a1080726e9afc1b09e94b7b53b1b2b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1476c82a2b82a54a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629057045661,
+        "stop" : 1629057047226,
+        "duration" : 1565
+      }
+    } ]
+  },
+  "4701453486949be58b2c331aac50eb8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af909f76a0dfc11b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113579885,
+        "stop" : 1629113579904,
+        "duration" : 19
+      }
+    } ]
+  },
+  "17c10d5ec3f7c81e0b8b6f26e6a6421a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7398fdb6db7ab01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580732,
+        "stop" : 1629113580896,
+        "duration" : 164
+      }
+    } ]
+  },
+  "5e6f2363633e6d1582a36fcaf80ba29b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "412099d6bea47623",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"12:02:29.203 16-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '331' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629104549186,
+        "stop" : 1629104549206,
+        "duration" : 20
+      }
+    } ]
+  },
+  "bad01a019f60e641fd3f67845ffb340f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "217abc358bee696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113579538,
+        "stop" : 1629113579637,
+        "duration" : 99
+      }
+    } ]
+  },
+  "aee48cf5178b0a0cdbbee39f32d281b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e23d7f5898dc7589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059791148,
+        "stop" : 1629059791306,
+        "duration" : 158
+      }
+    } ]
+  },
+  "3dc6ef80cefe4744eafadbcddc14c827" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "effb181aeef2be91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581244,
+        "stop" : 1629113581259,
+        "duration" : 15
+      }
+    } ]
+  },
+  "881ad2e8026881ca7fc38f7d8a9dc930" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "350e71e8caca95cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581385,
+        "stop" : 1629113581437,
+        "duration" : 52
+      }
+    } ]
+  },
+  "a15c8c08b0d782a1a3c92f4cd4f25b41" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fde94548ceea57ed",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.399 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '237' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629056728378,
+        "stop" : 1629056728401,
+        "duration" : 23
+      }
+    } ]
+  },
+  "ffac29e2b31cfcbba954052dca0f8cf4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d4b8d08f74dae3c",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '404'\nResponse: '{\"timeStamp\":\"22:45:28.428 15-08-2021\",\"statusCode\":404,\"error\":\"Not Found\",\"errorMessage\":\"Book with 'bookId' = '446' doesn't exist!\"}' expected [200] but found [404]",
+      "time" : {
+        "start" : 1629056728406,
+        "stop" : 1629056728431,
+        "duration" : 25
+      }
+    } ]
+  },
+  "67dfa357ae167f0c30a0ce1fc4cfea76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f1ee9c527a61b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113580286,
+        "stop" : 1629113580357,
+        "duration" : 71
+      }
+    } ]
+  },
+  "111a852a053a1916e1b0aa3f80a210a6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93b3de10cf81a1f2",
+      "status" : "failed",
+      "statusDetails" : "\nStatus code is: '405'\nResponse: '{\"timeStamp\":\"14:32:59.509 16-08-2021\",\"statusCode\":405,\"error\":\"Method Not Allowed\",\"errorMessage\":\"Method 'GET' mapped by '/api/library/author' not supported!\"}' expected [200] but found [405]",
+      "time" : {
+        "start" : 1629113579480,
+        "stop" : 1629113579533,
+        "duration" : 53
+      }
+    } ]
+  },
+  "e9552d22f3cd9535c9c748a8da47d33e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "464d1d038f5159e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059789923,
+        "stop" : 1629059790013,
+        "duration" : 90
+      }
+    } ]
+  },
+  "de76dd3d8f3a32861e339e2905da92ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d660508db316d13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629113581208,
+        "stop" : 1629113581239,
+        "duration" : 31
+      }
+    } ]
+  }
+}

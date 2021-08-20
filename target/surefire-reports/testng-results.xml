@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="13625" started-at="2021-08-17T22:35:43 EEST" finished-at="2021-08-17T22:35:57 EEST">
+    <groups>
+      <group name="require_prep">
+        <method signature="AuthorTests.verifyGetAuthorById()[pri:0, instance:AuthorTests@4159e81b]" name="verifyGetAuthorById" class="AuthorTests"/>
+        <method signature="AuthorTests.verifyPostAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifyPostAuthor" class="AuthorTests"/>
+        <method signature="AuthorTests.verifySearchBookAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchBookAuthor" class="AuthorTests"/>
+        <method signature="AuthorTests.verifyUpdateAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifyUpdateAuthor" class="AuthorTests"/>
+        <method signature="BookTests.verifyBooksOfSpecialAuthor()[pri:0, instance:BookTests@6719a5b8]" name="verifyBooksOfSpecialAuthor" class="BookTests"/>
+        <method signature="BookTests.verifyGetBookById()[pri:0, instance:BookTests@6719a5b8]" name="verifyGetBookById" class="BookTests"/>
+        <method signature="BookTests.verifyPostBook()[pri:0, instance:BookTests@6719a5b8]" name="verifyPostBook" class="BookTests"/>
+        <method signature="BookTests.verifyUpdateBook()[pri:0, instance:BookTests@6719a5b8]" name="verifyUpdateBook" class="BookTests"/>
+        <method signature="GenreTests.verifyGetGenreById()[pri:0, instance:GenreTests@3eb631b8]" name="verifyGetGenreById" class="GenreTests"/>
+        <method signature="GenreTests.verifyPostGenre()[pri:0, instance:GenreTests@3eb631b8]" name="verifyPostGenre" class="GenreTests"/>
+        <method signature="GenreTests.verifyUpdateGenre()[pri:0, instance:GenreTests@3eb631b8]" name="verifyUpdateGenre" class="GenreTests"/>
+      </group> <!-- require_prep -->
+    </groups>
+    <test name="Surefire test" duration-ms="13625" started-at="2021-08-17T22:35:43 EEST" finished-at="2021-08-17T22:35:57 EEST">
+      <class name="GenreTests">
+        <test-method status="PASS" signature="VerifyDeleteGenre()[pri:0, instance:GenreTests@3eb631b8]" name="VerifyDeleteGenre" duration-ms="69" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteGenre -->
+        <test-method status="PASS" signature="verifyGetAllGenres()[pri:0, instance:GenreTests@3eb631b8]" name="verifyGetAllGenres" duration-ms="36" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllGenres -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:GenreTests@3eb631b8]" name="beforeTest" is-config="true" duration-ms="100" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyGetGenreById()[pri:0, instance:GenreTests@3eb631b8]" name="verifyGetGenreById" duration-ms="30" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetGenreById -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:GenreTests@3eb631b8]" name="afterTest" is-config="true" duration-ms="66" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:GenreTests@3eb631b8]" name="beforeTest" is-config="true" duration-ms="99" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyPostGenre()[pri:0, instance:GenreTests@3eb631b8]" name="verifyPostGenre" duration-ms="7" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostGenre -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:GenreTests@3eb631b8]" name="afterTest" is-config="true" duration-ms="94" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyPostGenreWrong()[pri:0, instance:GenreTests@3eb631b8]" name="verifyPostGenreWrong" duration-ms="33" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostGenreWrong -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:GenreTests@3eb631b8]" name="beforeTest" is-config="true" duration-ms="129" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyUpdateGenre()[pri:0, instance:GenreTests@3eb631b8]" name="verifyUpdateGenre" duration-ms="41" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateGenre -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:GenreTests@3eb631b8]" name="afterTest" is-config="true" duration-ms="69" started-at="2021-08-17T22:35:57 EEST" finished-at="2021-08-17T22:35:57 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- GenreTests -->
+      <class name="BookTests">
+        <test-method status="PASS" signature="VerifyDeleteBook()[pri:0, instance:BookTests@6719a5b8]" name="VerifyDeleteBook" duration-ms="242" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteBook -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BookTests@6719a5b8]" name="beforeTest" is-config="true" duration-ms="124" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyBooksOfSpecialAuthor()[pri:0, instance:BookTests@6719a5b8]" name="verifyBooksOfSpecialAuthor" duration-ms="30" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooksOfSpecialAuthor -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BookTests@6719a5b8]" name="afterTest" is-config="true" duration-ms="69" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyGetAllBooks()[pri:0, instance:BookTests@6719a5b8]" name="verifyGetAllBooks" duration-ms="52" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllBooks -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BookTests@6719a5b8]" name="beforeTest" is-config="true" duration-ms="138" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyGetBookById()[pri:0, instance:BookTests@6719a5b8]" name="verifyGetBookById" duration-ms="32" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetBookById -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BookTests@6719a5b8]" name="afterTest" is-config="true" duration-ms="80" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BookTests@6719a5b8]" name="beforeTest" is-config="true" duration-ms="120" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyPostBook()[pri:0, instance:BookTests@6719a5b8]" name="verifyPostBook" duration-ms="10" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostBook -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BookTests@6719a5b8]" name="afterTest" is-config="true" duration-ms="72" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyPostBookWrong()[pri:0, instance:BookTests@6719a5b8]" name="verifyPostBookWrong" duration-ms="29" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostBookWrong -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:BookTests@6719a5b8]" name="beforeTest" is-config="true" duration-ms="119" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyUpdateBook()[pri:0, instance:BookTests@6719a5b8]" name="verifyUpdateBook" duration-ms="38" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateBook -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:BookTests@6719a5b8]" name="afterTest" is-config="true" duration-ms="73" started-at="2021-08-17T22:35:56 EEST" finished-at="2021-08-17T22:35:56 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- BookTests -->
+      <class name="AuthorTests">
+        <test-method status="PASS" signature="verifyDeleteAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifyDeleteAuthor" duration-ms="9623" started-at="2021-08-17T22:35:43 EEST" finished-at="2021-08-17T22:35:53 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAuthor -->
+        <test-method status="PASS" signature="verifyGetAllAuthors()[pri:0, instance:AuthorTests@4159e81b]" name="verifyGetAllAuthors" duration-ms="49" started-at="2021-08-17T22:35:53 EEST" finished-at="2021-08-17T22:35:53 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllAuthors -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AuthorTests@4159e81b]" name="beforeTest" is-config="true" duration-ms="424" started-at="2021-08-17T22:35:53 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyGetAuthorById()[pri:0, instance:AuthorTests@4159e81b]" name="verifyGetAuthorById" duration-ms="71" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAuthorById -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AuthorTests@4159e81b]" name="afterTest" is-config="true" duration-ms="76" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AuthorTests@4159e81b]" name="beforeTest" is-config="true" duration-ms="108" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyPostAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifyPostAuthor" duration-ms="8" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostAuthor -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AuthorTests@4159e81b]" name="afterTest" is-config="true" duration-ms="74" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="verifyPostAuthorWrong()[pri:0, instance:AuthorTests@4159e81b]" name="verifyPostAuthorWrong" duration-ms="48" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostAuthorWrong -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="86" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cordia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="35" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Broderick]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="64" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="36" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kelli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="30" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="verifySearchAuthorsByName(java.lang.String)[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchAuthorsByName" duration-ms="34" started-at="2021-08-17T22:35:54 EEST" data-provider="authorNames" finished-at="2021-08-17T22:35:54 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Josiah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAuthorsByName -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AuthorTests@4159e81b]" name="beforeTest" is-config="true" duration-ms="129" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifySearchBookAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifySearchBookAuthor" duration-ms="37" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:54 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBookAuthor -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AuthorTests@4159e81b]" name="afterTest" is-config="true" duration-ms="94" started-at="2021-08-17T22:35:54 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AuthorTests@4159e81b]" name="beforeTest" is-config="true" duration-ms="155" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyUpdateAuthor()[pri:0, instance:AuthorTests@4159e81b]" name="verifyUpdateAuthor" duration-ms="46" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateAuthor -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AuthorTests@4159e81b]" name="afterTest" is-config="true" duration-ms="110" started-at="2021-08-17T22:35:55 EEST" finished-at="2021-08-17T22:35:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AuthorTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

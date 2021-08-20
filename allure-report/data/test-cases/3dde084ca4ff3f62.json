@@ -1,0 +1,233 @@
+{
+  "uid" : "3dde084ca4ff3f62",
+  "name" : "verifyPostBookWrong",
+  "fullName" : "BookTests.verifyPostBookWrong",
+  "historyId" : "c24a7ce17bdeb6b44bf117b300398b8",
+  "time" : {
+    "start" : 1629113581017,
+    "stop" : 1629113581101,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629113581017,
+        "stop" : 1629113581036,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createGenre",
+      "time" : {
+        "start" : 1629113581038,
+        "stop" : 1629113581053,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "createBookWrong",
+      "time" : {
+        "start" : 1629113581055,
+        "stop" : 1629113581069,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "/BookWrong.json"
+      }, {
+        "name" : "authorId",
+        "value" : "0"
+      }, {
+        "name" : "genreId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113581071,
+        "stop" : 1629113581086,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629113581086,
+        "stop" : 1629113581101,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "genre"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostBookWrong"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "BookTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e51b5a14553b6f90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110375540,
+        "stop" : 1629110375644,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "c3bc99de338bd447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109760664,
+        "stop" : 1629109760766,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "47368f298805ce92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107460527,
+        "stop" : 1629107460658,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "45b03fc6575cc97c",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107357090,
+        "stop" : 1629107361320,
+        "duration" : 4230
+      }
+    }, {
+      "uid" : "c7b56a0e3795666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105311738,
+        "stop" : 1629105311862,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "c23254d6901f3850",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059791024,
+        "stop" : 1629059791143,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "2eac3dbd21f33f1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059192335,
+        "stop" : 1629059192447,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "1e8f285331940d3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058753901,
+        "stop" : 1629058754056,
+        "duration" : 155
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dde084ca4ff3f62.json",
+  "parameterValues" : [ ]
+}

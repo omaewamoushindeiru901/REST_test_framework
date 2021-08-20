@@ -1,0 +1,4396 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Kompukter",
+    "children" : [ {
+      "name" : "10596@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "VerifyDeleteBook",
+        "uid" : "517efa4858d7c475",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459707,
+          "stop" : 1629107459891,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "66aaf4be2bde9597",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459208,
+          "stop" : 1629107459619,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "56324c62c6ced46f",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459624,
+          "stop" : 1629107459702,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "69b251e2d788802a",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107458977,
+          "stop" : 1629107459026,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "1ef42a0ab75b049e",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460823,
+          "stop" : 1629107460865,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "47368f298805ce92",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460527,
+          "stop" : 1629107460658,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "394468395cdeb9d8",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460665,
+          "stop" : 1629107460818,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "8ef747edb29a145e",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460961,
+          "stop" : 1629107461005,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "7240da0e2b145186",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107461009,
+          "stop" : 1629107461027,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "4bf3b156f407d68f",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460121,
+          "stop" : 1629107460351,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "7c33a5fec32eafa7",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459172,
+          "stop" : 1629107459205,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "83c6063a5817bb24",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107458405,
+          "stop" : 1629107458460,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "40e2cda434ab95c4",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459045,
+          "stop" : 1629107459134,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "df99ffca188f2ede",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459896,
+          "stop" : 1629107460080,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "eefb033ca2942cf2",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107461031,
+          "stop" : 1629107461088,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "fc49f643dd6ce37e",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460869,
+          "stop" : 1629107460892,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "ddac3f573757595b",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107452446,
+          "stop" : 1629107458363,
+          "duration" : 5917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "1d5bcc6a4ab29483",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460895,
+          "stop" : 1629107460957,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "cc313ad7cac8dbc9",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460356,
+          "stop" : 1629107460522,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "6703f601cf45a873",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107459138,
+          "stop" : 1629107459166,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "e218cc78bf1f894a",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107458634,
+          "stop" : 1629107458972,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "5c73f6b9a71f83e4",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107458465,
+          "stop" : 1629107458627,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "bdcb8570fd5991a0",
+        "parentUid" : "6e2e8eed5a5e52332e1c14d7ea148093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629107460084,
+          "stop" : 1629107460116,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e2e8eed5a5e52332e1c14d7ea148093"
+    }, {
+      "name" : "7984@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "7d643fd7b0e82ec7",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107381718,
+          "stop" : 1629107385803,
+          "duration" : 4085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "28caf4a45c7e3766",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107365400,
+          "stop" : 1629107369483,
+          "duration" : 4083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "5cd2a0d5a0852b78",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107324407,
+          "stop" : 1629107328494,
+          "duration" : 4087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3e6b140762e063c8",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107316203,
+          "stop" : 1629107320331,
+          "duration" : 4128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "6fab03324ae23f5c",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107353000,
+          "stop" : 1629107357085,
+          "duration" : 4085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "483e77d25c273f3b",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107385813,
+          "stop" : 1629107389896,
+          "duration" : 4083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "dd6444b009facc6a",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107373575,
+          "stop" : 1629107377645,
+          "duration" : 4070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "5cb4372931f4b1b5",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107369490,
+          "stop" : 1629107373566,
+          "duration" : 4076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "720ce8abfacd383b",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107344832,
+          "stop" : 1629107348901,
+          "duration" : 4069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "21d8970201e94fba",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107328509,
+          "stop" : 1629107332586,
+          "duration" : 4077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "4d3a257f88a23099",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107303921,
+          "stop" : 1629107307995,
+          "duration" : 4074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "df9a0e5c7425731b",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107377650,
+          "stop" : 1629107381709,
+          "duration" : 4059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "513203f4e5c2f0fb",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107299828,
+          "stop" : 1629107303914,
+          "duration" : 4086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "7418ac4a6a2cbf95",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107312088,
+          "stop" : 1629107316166,
+          "duration" : 4078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "fad56f8f307d0ca4",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107308000,
+          "stop" : 1629107312078,
+          "duration" : 4078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "c0cd25c238648367",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107332590,
+          "stop" : 1629107336659,
+          "duration" : 4069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "45b03fc6575cc97c",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107357090,
+          "stop" : 1629107361320,
+          "duration" : 4230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "74f0a2741fd36682",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107361326,
+          "stop" : 1629107365391,
+          "duration" : 4065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "203256ac96a7f1a9",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107336666,
+          "stop" : 1629107340735,
+          "duration" : 4069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "4bce9410b4683030",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107292410,
+          "stop" : 1629107299795,
+          "duration" : 7385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "f447d43f89a89630",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107320337,
+          "stop" : 1629107324397,
+          "duration" : 4060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "b2237d49bc6b74c6",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107348910,
+          "stop" : 1629107352992,
+          "duration" : 4082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "645776756dbb604c",
+        "parentUid" : "606c11ce4af3b0363023858afbcbaa33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629107340743,
+          "stop" : 1629107344824,
+          "duration" : 4081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "606c11ce4af3b0363023858afbcbaa33"
+    }, {
+      "name" : "7856@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyGetAllGenres",
+        "uid" : "3fb7c704c25c3b11",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754443,
+          "stop" : 1629058754465,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "6dc579ced3245df3",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754231,
+          "stop" : 1629058754391,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookLanguage", "japanese" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "134cac26b9b66e41",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752226,
+          "stop" : 1629058752333,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "65e2ace5c0e615e",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753297,
+          "stop" : 1629058753488,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "e73b61972a6cf15e",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752175,
+          "stop" : 1629058752217,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "b07cdc22fb1bc3f5",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753038,
+          "stop" : 1629058753288,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "68169664b321c395",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754536,
+          "stop" : 1629058754574,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "10aadc79854cc630",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752787,
+          "stop" : 1629058752806,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "1c03ccd018f2c8ff",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752809,
+          "stop" : 1629058752823,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "d82619529068def4",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752852,
+          "stop" : 1629058752955,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "93c34454e34cd0ca",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754061,
+          "stop" : 1629058754228,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookName", "JOJO" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "3e708bc75fa4407",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752411,
+          "stop" : 1629058752441,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "1b5e4a2419a6b052",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753492,
+          "stop" : 1629058753516,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "cf1f22f1e2fa17c1",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058749550,
+          "stop" : 1629058752145,
+          "duration" : 2595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "585bea7632997e08",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753717,
+          "stop" : 1629058753895,
+          "duration" : 178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "1e8f285331940d3e",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753901,
+          "stop" : 1629058754056,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "e6d9c3abc3ac14a9",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754395,
+          "stop" : 1629058754435,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "93b48a17bd28b2f7",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752768,
+          "stop" : 1629058752783,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "97fd37f35c9a8958",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752684,
+          "stop" : 1629058752733,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "eef68e52aa254812",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752741,
+          "stop" : 1629058752766,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "47fa8b4990fe9843",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754716,
+          "stop" : 1629058754981,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "d4c989760dd18526",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752338,
+          "stop" : 1629058752407,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "85daaba982e984af",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754581,
+          "stop" : 1629058754689,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "f973ee5122001c59",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058754469,
+          "stop" : 1629058754527,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "5b6bc43f81adf1f8",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058753526,
+          "stop" : 1629058753713,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "63e185afaf4c9d14",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752958,
+          "stop" : 1629058753034,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "7e143b24774d6bae",
+        "parentUid" : "b3974f14dfd6b0e46834c42890e7d36d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058752830,
+          "stop" : 1629058752849,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      } ],
+      "uid" : "b3974f14dfd6b0e46834c42890e7d36d"
+    }, {
+      "name" : "5308@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "a440cecf3f4fb7ae",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580036,
+          "stop" : 1629113580281,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "af909f76a0dfc11b",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113579885,
+          "stop" : 1629113579904,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "f9d117d2a71052de",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581107,
+          "stop" : 1629113581204,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "cb572394018dbb02",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113579921,
+          "stop" : 1629113579980,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "7d86c68806569728",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113579985,
+          "stop" : 1629113580002,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "381f940c84d9fb38",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581319,
+          "stop" : 1629113581357,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "350e71e8caca95cc",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581385,
+          "stop" : 1629113581437,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "3d660508db316d13",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581208,
+          "stop" : 1629113581239,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "8f157f07357cd74",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580007,
+          "stop" : 1629113580032,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "3dde084ca4ff3f62",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581017,
+          "stop" : 1629113581101,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "259d78e335c08043",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113579641,
+          "stop" : 1629113579881,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "a3c9954aec6fd388",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580901,
+          "stop" : 1629113581013,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "772402acd05f8c7a",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113575605,
+          "stop" : 1629113579437,
+          "duration" : 3832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "3f1ee9c527a61b52",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580286,
+          "stop" : 1629113580357,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "93b3de10cf81a1f2",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629113579480,
+          "stop" : 1629113579533,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "c7b36c29a94a6930",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580362,
+          "stop" : 1629113580525,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "430fe66866b2d533",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580530,
+          "stop" : 1629113580702,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "827ef7038fb6c455",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580707,
+          "stop" : 1629113580726,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "217abc358bee696",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113579538,
+          "stop" : 1629113579637,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "7c65cdef934ebc33",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581263,
+          "stop" : 1629113581315,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "75f101a7a5335812",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581364,
+          "stop" : 1629113581381,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "effb181aeef2be91",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113581244,
+          "stop" : 1629113581259,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "7398fdb6db7ab01c",
+        "parentUid" : "e87c1d1988068fcb9740f57b4c0d8409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629113580732,
+          "stop" : 1629113580896,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e87c1d1988068fcb9740f57b4c0d8409"
+    }, {
+      "name" : "9988@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyGetAllBooks",
+        "uid" : "1d83d5d44686d64b",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191949,
+          "stop" : 1629059191972,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "d0244a0d83e999f9",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191239,
+          "stop" : 1629059191305,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "c2c51051f8cf1618",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192763,
+          "stop" : 1629059192805,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "a77d9b1b154fbba1",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192167,
+          "stop" : 1629059192330,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "f23d7a46611131f7",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059187557,
+          "stop" : 1629059190715,
+          "duration" : 3158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "a517d365d1f43937",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191039,
+          "stop" : 1629059191215,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3127834423fe7df",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191310,
+          "stop" : 1629059191336,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "fe949990823e786e",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192451,
+          "stop" : 1629059192602,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookName", "JOJO" ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "b24c77c6725bba20",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191648,
+          "stop" : 1629059191797,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "1cb12cfc217d9437",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059190956,
+          "stop" : 1629059191035,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "2b1441c6c1cf0eb1",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191801,
+          "stop" : 1629059191945,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "5718fea011b3d3fa",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192829,
+          "stop" : 1629059192880,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "6feddc8bef7242ae",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192924,
+          "stop" : 1629059192939,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "fc94720491d2a10d",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192606,
+          "stop" : 1629059192758,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookLanguage", "japanese" ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "cb49bbf0717a5ea7",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192809,
+          "stop" : 1629059192824,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "a9442dc42e1bdc17",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192884,
+          "stop" : 1629059192921,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "e1e5ba108447cde5",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191338,
+          "stop" : 1629059191361,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "b184dd2a03f2b606",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191450,
+          "stop" : 1629059191566,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "2bc3a50341f09574",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191983,
+          "stop" : 1629059192162,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "a1c41c2f6eee8124",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191569,
+          "stop" : 1629059191642,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "b3836c84015f3ab3",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192943,
+          "stop" : 1629059192993,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "d04c3788f73469d1",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191422,
+          "stop" : 1629059191444,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "464f86ce49d6e803",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059190751,
+          "stop" : 1629059190805,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "89d052363fbc4793",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191365,
+          "stop" : 1629059191388,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "2eac3dbd21f33f1f",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059192335,
+          "stop" : 1629059192447,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "bd77d07e3193f404",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059190811,
+          "stop" : 1629059190952,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "258297364c357072",
+        "parentUid" : "e317f6efe87f5d33e39f53466ab8a2f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059191391,
+          "stop" : 1629059191414,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      } ],
+      "uid" : "e317f6efe87f5d33e39f53466ab8a2f1"
+    }, {
+      "name" : "6040@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyGetAuthorById",
+        "uid" : "8a1ea70412daa32a",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026118,
+          "stop" : 1629105026434,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "14da7a9bfcf10585",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105022716,
+          "stop" : 1629105025821,
+          "duration" : 3105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "57184b1e42461b02",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026942,
+          "stop" : 1629105027038,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "4547981e51f5f544",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026669,
+          "stop" : 1629105026687,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "ff9850891fd9f3ea",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026518,
+          "stop" : 1629105026545,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "e04726031f8d37af",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026565,
+          "stop" : 1629105026636,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "f7fa9ac36957efa6",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026641,
+          "stop" : 1629105026664,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "7521cd0616cd1b6a",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026030,
+          "stop" : 1629105026112,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "e55e68be5450d681",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026438,
+          "stop" : 1629105026514,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "fd31735c623b883f",
+        "parentUid" : "e5184100fcd99856fd48a7c775a246a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105026691,
+          "stop" : 1629105026937,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5184100fcd99856fd48a7c775a246a4"
+    }, {
+      "name" : "4376@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostGenre",
+        "uid" : "9db8ed59fd6d4cfc",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104534566,
+          "stop" : 1629104534629,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "31368eb87b0943ae",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104534343,
+          "stop" : 1629104534369,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "56f813c4a89df509",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104534373,
+          "stop" : 1629104534563,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "9ba78403233b768b",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104534632,
+          "stop" : 1629104534649,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "e353a2cc10f370b7",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104534653,
+          "stop" : 1629104534719,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "6f0c1323cca56cd3",
+        "parentUid" : "7beea7c21e659c1eabec90892fbda213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104531457,
+          "stop" : 1629104534311,
+          "duration" : 2854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7beea7c21e659c1eabec90892fbda213"
+    }, {
+      "name" : "12872@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyUpdateBook",
+        "uid" : "a6ec404ee00318e6",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375651,
+          "stop" : 1629110375741,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "b85a38fc191833e8",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375810,
+          "stop" : 1629110375861,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "2461a4c8a0ce3f6a",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374231,
+          "stop" : 1629110374420,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "c50c521892587062",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374183,
+          "stop" : 1629110374213,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "c81780221f6220fe",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374896,
+          "stop" : 1629110375052,
+          "duration" : 156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "20a3fb03fa1917f5",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375248,
+          "stop" : 1629110375401,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "44d89281b27c0acf",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374527,
+          "stop" : 1629110374549,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "607a0e0c32609dc8",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375864,
+          "stop" : 1629110375901,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "e2640822c3104a86",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375056,
+          "stop" : 1629110375219,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "f8a2dcd1be97a34c",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110369672,
+          "stop" : 1629110373563,
+          "duration" : 3891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "b43b83a8837b9e81",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375224,
+          "stop" : 1629110375243,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "da4be1c038f672c1",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110373802,
+          "stop" : 1629110374178,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "3e3da188d12ea6e6",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375788,
+          "stop" : 1629110375806,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "ac4c4423be723e0",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375905,
+          "stop" : 1629110375917,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "1288412aae1fae73",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110373653,
+          "stop" : 1629110373798,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "66529e4f01d8995c",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375405,
+          "stop" : 1629110375536,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "1edaad4c3d725bd8",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374425,
+          "stop" : 1629110374523,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "353ef207f2dcfde1",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374559,
+          "stop" : 1629110374804,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "68dfd1c606daab22",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375745,
+          "stop" : 1629110375784,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "a78914440bbe9f9f",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110373617,
+          "stop" : 1629110373649,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "e51b5a14553b6f90",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375540,
+          "stop" : 1629110375644,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "48ba3a83cf361073",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110374809,
+          "stop" : 1629110374892,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "a9099157a3249ff3",
+        "parentUid" : "eadd0560ff1496a20f5c8affb1748285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629110375921,
+          "stop" : 1629110375965,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eadd0560ff1496a20f5c8affb1748285"
+    }, {
+      "name" : "916@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyGetAuthorById",
+        "uid" : "c4c7168cbe694ac2",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310319,
+          "stop" : 1629105310446,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "dc0fc5761dd2442",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312086,
+          "stop" : 1629105312103,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "835268a92198db3a",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310687,
+          "stop" : 1629105310888,
+          "duration" : 201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "4d9ec93efa492d74",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311138,
+          "stop" : 1629105311319,
+          "duration" : 181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "de0ed206421fa4d7",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105306800,
+          "stop" : 1629105310081,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "256e1e88f56ccd58",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310523,
+          "stop" : 1629105310555,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "253f9c963df1b680",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312039,
+          "stop" : 1629105312083,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "2cee7ef5499c407b",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310891,
+          "stop" : 1629105310968,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "967b15b99018b9ef",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311868,
+          "stop" : 1629105312034,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "49acc86646370dcf",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310645,
+          "stop" : 1629105310663,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "df2a6af35446d3d2",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310665,
+          "stop" : 1629105310683,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "fa8ee0aef75afb04",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310972,
+          "stop" : 1629105311135,
+          "duration" : 163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "d10d9a593d742d8b",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312206,
+          "stop" : 1629105312222,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "1bff0a327efc19ae",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312107,
+          "stop" : 1629105312159,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "7296cb594d63e1c2",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311557,
+          "stop" : 1629105311733,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "26e42721f214617d",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311355,
+          "stop" : 1629105311552,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "f393c80fe42ee84",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311323,
+          "stop" : 1629105311350,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "873a75610714042e",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312225,
+          "stop" : 1629105312276,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "c7b56a0e3795666",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105311738,
+          "stop" : 1629105311862,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "bdfa4883de6a9340",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310450,
+          "stop" : 1629105310519,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "8ddc7befb21080db",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310118,
+          "stop" : 1629105310314,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "2ac5f182585533b0",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105312162,
+          "stop" : 1629105312202,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "1d5bcb3e2a407de0",
+        "parentUid" : "7695061768e16bc2be8623468158d836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629105310573,
+          "stop" : 1629105310642,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      } ],
+      "uid" : "7695061768e16bc2be8623468158d836"
+    }, {
+      "name" : "2596@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "667bdb69797b0c83",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505609,
+          "stop" : 1629058505625,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "83f69d2da0660db7",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505744,
+          "stop" : 1629058505801,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "c71318d468352d5f",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505328,
+          "stop" : 1629058505407,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "f9877cd63d3e6c51",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505295,
+          "stop" : 1629058505324,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "65006934d75633b2",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505583,
+          "stop" : 1629058505605,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "55022a602d1c7ea1",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505461,
+          "stop" : 1629058505484,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "d7cc8ec37fd3e2e4",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505653,
+          "stop" : 1629058505741,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "b8beba7926207eae",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505633,
+          "stop" : 1629058505650,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "b4ed4adb38884f24",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505537,
+          "stop" : 1629058505556,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "31644d34a4258543",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505559,
+          "stop" : 1629058505579,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "37cd3efe7a057ecd",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505495,
+          "stop" : 1629058505532,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "aae61de9de0b9ec",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058503233,
+          "stop" : 1629058505269,
+          "duration" : 2036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "970a505ff6c34533",
+        "parentUid" : "f28fdb4ff0e973411ff44bbcc8076208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058505410,
+          "stop" : 1629058505457,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f28fdb4ff0e973411ff44bbcc8076208"
+    }, {
+      "name" : "1404@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "bc441abdefa21a2",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760892,
+          "stop" : 1629109760928,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3291ae0d06bd3390",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759812,
+          "stop" : 1629109759831,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "9f35b09c5890c1c3",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109755638,
+          "stop" : 1629109759162,
+          "duration" : 3524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "8a9d1e616775f8d7",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109761052,
+          "stop" : 1629109761067,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "b2eb0004a68c780",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760931,
+          "stop" : 1629109760948,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "9afb71aae5b9205e",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759852,
+          "stop" : 1629109760021,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "915b078fccb45123",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759834,
+          "stop" : 1629109759850,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "c1e88aa0d7e05da8",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760329,
+          "stop" : 1629109760345,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "c2df0d9a2e746105",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759200,
+          "stop" : 1629109759227,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "7f59768cacd624b7",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109761009,
+          "stop" : 1629109761047,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "c7aeb821ee40772d",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760523,
+          "stop" : 1629109760659,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "c3bc99de338bd447",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760664,
+          "stop" : 1629109760766,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "5c931cd4669d44f9",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760083,
+          "stop" : 1629109760210,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "2d293b9cd8b81cf2",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759749,
+          "stop" : 1629109759807,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "1dd7ab0b885baf4e",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760772,
+          "stop" : 1629109760887,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "e3addbd52afe8efb",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760024,
+          "stop" : 1629109760080,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "6c75d8ec496636c1",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760349,
+          "stop" : 1629109760520,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "d47f3b741307dc79",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759231,
+          "stop" : 1629109759354,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "e3e2558df11ffd92",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760214,
+          "stop" : 1629109760327,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "b4c347c48ea89b59",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109760952,
+          "stop" : 1629109761005,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "a0b10d02bbc373a7",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759711,
+          "stop" : 1629109759732,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "6496770f5b8258f8",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109761070,
+          "stop" : 1629109761122,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "f58c79c2a97091f5",
+        "parentUid" : "21a92023d0cd67db074b9f2c3d9a2397",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109759359,
+          "stop" : 1629109759706,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21a92023d0cd67db074b9f2c3d9a2397"
+    }, {
+      "name" : "3380@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "58cba25b6f17c836",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789488,
+          "stop" : 1629059789509,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "712397dd8332dabe",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789513,
+          "stop" : 1629059789537,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "VerifyDeleteBook",
+        "uid" : "778021c97450f2b6",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059790018,
+          "stop" : 1629059790247,
+          "duration" : 229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "d69f3b4bc5b1c9f2",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791523,
+          "stop" : 1629059791538,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "9d54f6486b8c3c75",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789541,
+          "stop" : 1629059789561,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "d6be55cc68480ffb",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059788855,
+          "stop" : 1629059789132,
+          "duration" : 277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBook",
+        "uid" : "454f1d34b4f40199",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059790843,
+          "stop" : 1629059791018,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "14da33ef076ef6d6",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791541,
+          "stop" : 1629059791585,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "2b11f7b2ab564dee",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059785919,
+          "stop" : 1629059788811,
+          "duration" : 2892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "d031a3a981493b44",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791481,
+          "stop" : 1629059791519,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostBookWrong",
+        "uid" : "c23254d6901f3850",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791024,
+          "stop" : 1629059791143,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllBooks",
+        "uid" : "684622340f15b6a7",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059790597,
+          "stop" : 1629059790621,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3d23e933b5f9cd05",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789456,
+          "stop" : 1629059789483,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "464d1d038f5159e1",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789923,
+          "stop" : 1629059790013,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "f03d2dcf2ade9ea0",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791640,
+          "stop" : 1629059791690,
+          "duration" : 50
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "b980696f379e47ad",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789136,
+          "stop" : 1629059789249,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "50135fb7f7dd7ce9",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789254,
+          "stop" : 1629059789323,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "da2452a6cef4301a",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789566,
+          "stop" : 1629059789590,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifyPostGenre",
+        "uid" : "9996f9bf4687df54",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791588,
+          "stop" : 1629059791617,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "ce1555881f2089f0",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791309,
+          "stop" : 1629059791477,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookLanguage", "japanese" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "473ea97c01d734ec",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789594,
+          "stop" : 1629059789918,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "6e322a130e7379f0",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789371,
+          "stop" : 1629059789450,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyUpdateBook",
+        "uid" : "e23d7f5898dc7589",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791148,
+          "stop" : 1629059791306,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bookName", "JOJO" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "70237396f697ea9e",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059789328,
+          "stop" : 1629059789354,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetBookById",
+        "uid" : "db51fe3fefe1cda6",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059790627,
+          "stop" : 1629059790838,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyBooksOfSpecialAuthor",
+        "uid" : "1d9bffb54a176b20",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059790254,
+          "stop" : 1629059790592,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "6a7cc98a2bad46fb",
+        "parentUid" : "b6d0b40829b57465c72e164e6ac47d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059791621,
+          "stop" : 1629059791637,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6d0b40829b57465c72e164e6ac47d11"
+    }, {
+      "name" : "812@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "f8d88e1ad3c8105e",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056727933,
+          "stop" : 1629056727982,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "c52c2cc92449dd45",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728285,
+          "stop" : 1629056728306,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "1ec53ee3d31d4666",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056727993,
+          "stop" : 1629056728096,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "1d4b8d08f74dae3c",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728406,
+          "stop" : 1629056728431,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "446" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "57b546dccf43061f",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728558,
+          "stop" : 1629056728631,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "264429e33b0c872e",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056724818,
+          "stop" : 1629056727906,
+          "duration" : 3088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "2c0f817319bac0ab",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728173,
+          "stop" : 1629056728215,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "fde94548ceea57ed",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728378,
+          "stop" : 1629056728401,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "237" ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "27e4ba72fac7f198",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728100,
+          "stop" : 1629056728169,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "a1f8a4273a3b00ab",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728310,
+          "stop" : 1629056728337,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "df7b875a2e3fe88a",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728435,
+          "stop" : 1629056728555,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "929ef65ca70277bb",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629056728341,
+          "stop" : 1629056728369,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "17" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "7bd7d0fd9d74cb7d",
+        "parentUid" : "92d9e8f317433dbf9fe48cafffe9856f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629056728228,
+          "stop" : 1629056728281,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      } ],
+      "uid" : "92d9e8f317433dbf9fe48cafffe9856f"
+    }, {
+      "name" : "9252@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "ca8870ce00a1e0b5",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997870,
+          "stop" : 1629104997895,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "4b1d8ae88c9de190",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104994563,
+          "stop" : 1629104997466,
+          "duration" : 2903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "f389ab3dfe9f35f7",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997995,
+          "stop" : 1629104998015,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "ffad74a493cc266",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997810,
+          "stop" : 1629104997865,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "29c3abd207dec93",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997910,
+          "stop" : 1629104997963,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "adf7c9e1dba980da",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997499,
+          "stop" : 1629104997528,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3c065464e7d88064",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997967,
+          "stop" : 1629104997991,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "5706a9acdd9f73da",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104997531,
+          "stop" : 1629104997806,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "94e9e30587cab32a",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629104998032,
+          "stop" : 1629104998034,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "deeb0af3be71fd5b",
+        "parentUid" : "fb44177f3dd2c79dd2d776b78b0adc4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104998038,
+          "stop" : 1629104998109,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb44177f3dd2c79dd2d776b78b0adc4d"
+    }, {
+      "name" : "16228@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "5298663e5d903e3a",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058369500,
+          "stop" : 1629058371580,
+          "duration" : 2080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "89ae0119c90c1e73",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371924,
+          "stop" : 1629058371944,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "78d4d0d95e060cdd",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371608,
+          "stop" : 1629058371641,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "c9708de130c5ab04",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058372095,
+          "stop" : 1629058372156,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "48b511fea0262f58",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371727,
+          "stop" : 1629058371784,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "c544cdfaca53af04",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371874,
+          "stop" : 1629058371895,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "b13346cea1ca44aa",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371826,
+          "stop" : 1629058371870,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "fe2c6f5e0a3eb639",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371947,
+          "stop" : 1629058371963,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "57d0891ca5cda51",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371991,
+          "stop" : 1629058372091,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "b5586ce6b5644d88",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371645,
+          "stop" : 1629058371723,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "6d9bd686ffb9adda",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371898,
+          "stop" : 1629058371920,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "44fe7425eeeefa4d",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371789,
+          "stop" : 1629058371814,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "16cced024f235fe0",
+        "parentUid" : "63d024dfa968ff6938c36bc1ade43184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629058371966,
+          "stop" : 1629058371986,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      } ],
+      "uid" : "63d024dfa968ff6938c36bc1ade43184"
+    }, {
+      "name" : "15720@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostAuthor",
+        "uid" : "4fb8e9fda0a1f712",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048272,
+          "stop" : 1629057048341,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "877ae95292706ba9",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048407,
+          "stop" : 1629057048467,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "5e1e2e8a017a24cc",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048346,
+          "stop" : 1629057048391,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "d6787dc3323ec862",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048496,
+          "stop" : 1629057048516,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "faf814facfd860ce",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057047309,
+          "stop" : 1629057048096,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "a2197a14a15e07bf",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048583,
+          "stop" : 1629057048629,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "da8ed4c58425eb13",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048151,
+          "stop" : 1629057048267,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "deccd007a1564903",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048720,
+          "stop" : 1629057048782,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "dd973e00d6c2bbf2",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048552,
+          "stop" : 1629057048578,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "42e9acb604fb8cbd",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048634,
+          "stop" : 1629057048717,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "delete",
+        "uid" : "1476c82a2b82a54a",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057045661,
+          "stop" : 1629057047226,
+          "duration" : 1565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "73191471fa39464",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048520,
+          "stop" : 1629057048549,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "a4443b5726d45d8",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048102,
+          "stop" : 1629057048147,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "f78552331bb557d6",
+        "parentUid" : "2e165024e335c64868314674956d1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629057048472,
+          "stop" : 1629057048492,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      } ],
+      "uid" : "2e165024e335c64868314674956d1bea"
+    }, {
+      "name" : "10484@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostGenre",
+        "uid" : "dec0e23495ddb9e6",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102511564,
+          "stop" : 1629102511646,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetGenreById",
+        "uid" : "3dbbd9d72fc6cef6",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102511189,
+          "stop" : 1629102511559,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllGenres",
+        "uid" : "30892fad13e40267",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102511134,
+          "stop" : 1629102511183,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateGenre",
+        "uid" : "85ede3de5b54665a",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102511704,
+          "stop" : 1629102511811,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDeleteGenre",
+        "uid" : "65271716ab27e898",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102506038,
+          "stop" : 1629102511084,
+          "duration" : 5046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostGenreWrong",
+        "uid" : "10d09910976ebbd4",
+        "parentUid" : "3fc75da8e411d7c2c8aee64c96e83d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629102511650,
+          "stop" : 1629102511699,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fc75da8e411d7c2c8aee64c96e83d08"
+    }, {
+      "name" : "8824@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "320d7550361d5edf",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333666,
+          "stop" : 1629059333687,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "3a17650595397c1c",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333333,
+          "stop" : 1629059333393,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "b90e63d4ae3375bc",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333692,
+          "stop" : 1629059333715,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "640c5b9b2737e828",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333741,
+          "stop" : 1629059333759,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "a12995c20f97c13b",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333226,
+          "stop" : 1629059333284,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "46fb256f8a024999",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333719,
+          "stop" : 1629059333738,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "f8f8e5033dacd577",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333764,
+          "stop" : 1629059333852,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "authorDescription", "Anime" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "bc26778562653b94",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333636,
+          "stop" : 1629059333662,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "e1185de6a739e469",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333133,
+          "stop" : 1629059333222,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "c68afd94bc1c9661",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333292,
+          "stop" : 1629059333317,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "a6be268a4ec83626",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059329853,
+          "stop" : 1629059333061,
+          "duration" : 3208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "1d1705e7046dc03e",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333856,
+          "stop" : 1629059333918,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "nationality", "japanese" ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "689c5e2bb2ad2b96",
+        "parentUid" : "8ba484143a5bca4683c52a62a370f230",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629059333097,
+          "stop" : 1629059333127,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ba484143a5bca4683c52a62a370f230"
+    }, {
+      "name" : "11596@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "36dcdf5b887dafe3",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104548992,
+          "stop" : 1629104549094,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Cordia" ]
+      }, {
+        "name" : "verifyPostAuthorWrong",
+        "uid" : "76498b8ff1c3b7b7",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104548945,
+          "stop" : 1629104548978,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "6e66145b66c382ea",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104549124,
+          "stop" : 1629104549146,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Alb" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "bbe2eeacd13c3486",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549210,
+          "stop" : 1629104549228,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "355" ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "b00b8c4b996fda16",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549150,
+          "stop" : 1629104549182,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "288" ]
+      }, {
+        "name" : "verifyGetAuthorById",
+        "uid" : "e974b903937045b0",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104548318,
+          "stop" : 1629104548876,
+          "duration" : 558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "36407ccccf318317",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104549232,
+          "stop" : 1629104549319,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyDeleteAuthor",
+        "uid" : "55b70bd9e234912d",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104545611,
+          "stop" : 1629104548231,
+          "duration" : 2620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyPostAuthor",
+        "uid" : "d682483dd7bd6137",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104548879,
+          "stop" : 1629104548942,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyGetAllAuthors",
+        "uid" : "7ed8064662448f90",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104548277,
+          "stop" : 1629104548313,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySearchBookAuthor",
+        "uid" : "412099d6bea47623",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629104549186,
+          "stop" : 1629104549206,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "331" ]
+      }, {
+        "name" : "verifySearchAuthorsByName",
+        "uid" : "46c1a8aa8e710894",
+        "parentUid" : "e730c2a5eaa12cf41d1cd476459bec39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629104549098,
+          "stop" : 1629104549120,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Broderick" ]
+      } ],
+      "uid" : "e730c2a5eaa12cf41d1cd476459bec39"
+    }, {
+      "name" : "10580@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyUpdateAuthor",
+        "uid" : "cd726626a26a5a75",
+        "parentUid" : "99312eab1e64028a0a590863f7335be2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629103633840,
+          "stop" : 1629103636580,
+          "duration" : 2740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99312eab1e64028a0a590863f7335be2"
+    }, {
+      "name" : "12376@Kompukter.main(1)",
+      "children" : [ {
+        "name" : "verifyPostAuthor",
+        "uid" : "17dd6882f732d602",
+        "parentUid" : "980de57df863149d77697fe079f5e457",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629109657944,
+          "stop" : 1629109661317,
+          "duration" : 3373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "980de57df863149d77697fe079f5e457"
+    } ],
+    "uid" : "786519f49c914d7665fe2d2fed03077f"
+  } ]
+}

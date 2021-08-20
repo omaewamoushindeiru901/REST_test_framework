@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="VerifyDeleteBook">VerifyDeleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="VerifyDeleteGenre">VerifyDeleteGenre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyBooksOfSpecialAuthor">verifyBooksOfSpecialAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyDeleteAuthor">verifyDeleteAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyGetAllAuthors">verifyGetAllAuthors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyGetAllBooks">verifyGetAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="verifyGetAllGenres">verifyGetAllGenres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyGetAuthorById">verifyGetAuthorById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyGetBookById">verifyGetBookById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="verifyGetGenreById">verifyGetGenreById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyPostAuthor">verifyPostAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyPostAuthorWrong">verifyPostAuthorWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyPostBook">verifyPostBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyPostBookWrong">verifyPostBookWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="verifyPostGenre">verifyPostGenre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="verifyPostGenreWrong">verifyPostGenreWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Alb)">verifySearchAuthorsByName(Alb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Broderick)">verifySearchAuthorsByName(Broderick)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Cordia)">verifySearchAuthorsByName(Cordia)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Kelli)">verifySearchAuthorsByName(Kelli)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Josiah)">verifySearchAuthorsByName(Josiah)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchAuthorsByName(Kam)">verifySearchAuthorsByName(Kam)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifySearchBookAuthor">verifySearchBookAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="AuthorTests" hash-for-method="verifyUpdateAuthor">verifyUpdateAuthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="BookTests" hash-for-method="verifyUpdateBook">verifyUpdateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="GenreTests" hash-for-method="verifyUpdateGenre">verifyUpdateGenre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GenreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeleteGenre">
+                  </a> <!-- VerifyDeleteGenre -->
+                  <span class="method-name">VerifyDeleteGenre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllGenres">
+                  </a> <!-- verifyGetAllGenres -->
+                  <span class="method-name">verifyGetAllGenres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetGenreById">
+                  </a> <!-- verifyGetGenreById -->
+                  <span class="method-name">verifyGetGenreById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostGenre">
+                  </a> <!-- verifyPostGenre -->
+                  <span class="method-name">verifyPostGenre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostGenreWrong">
+                  </a> <!-- verifyPostGenreWrong -->
+                  <span class="method-name">verifyPostGenreWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateGenre">
+                  </a> <!-- verifyUpdateGenre -->
+                  <span class="method-name">verifyUpdateGenre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthorTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteAuthor">
+                  </a> <!-- verifyDeleteAuthor -->
+                  <span class="method-name">verifyDeleteAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllAuthors">
+                  </a> <!-- verifyGetAllAuthors -->
+                  <span class="method-name">verifyGetAllAuthors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAuthorById">
+                  </a> <!-- verifyGetAuthorById -->
+                  <span class="method-name">verifyGetAuthorById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostAuthor">
+                  </a> <!-- verifyPostAuthor -->
+                  <span class="method-name">verifyPostAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostAuthorWrong">
+                  </a> <!-- verifyPostAuthorWrong -->
+                  <span class="method-name">verifyPostAuthorWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Alb)">
+                  </a> <!-- verifySearchAuthorsByName(Alb) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Alb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Broderick)">
+                  </a> <!-- verifySearchAuthorsByName(Broderick) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Broderick)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Cordia)">
+                  </a> <!-- verifySearchAuthorsByName(Cordia) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Cordia)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Kelli)">
+                  </a> <!-- verifySearchAuthorsByName(Kelli) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Kelli)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Josiah)">
+                  </a> <!-- verifySearchAuthorsByName(Josiah) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Josiah)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAuthorsByName(Kam)">
+                  </a> <!-- verifySearchAuthorsByName(Kam) -->
+                  <span class="method-name">verifySearchAuthorsByName</span>
+                  <span class="parameters">(Kam)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBookAuthor">
+                  </a> <!-- verifySearchBookAuthor -->
+                  <span class="method-name">verifySearchBookAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateAuthor">
+                  </a> <!-- verifyUpdateAuthor -->
+                  <span class="method-name">verifyUpdateAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BookTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDeleteBook">
+                  </a> <!-- VerifyDeleteBook -->
+                  <span class="method-name">VerifyDeleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBooksOfSpecialAuthor">
+                  </a> <!-- verifyBooksOfSpecialAuthor -->
+                  <span class="method-name">verifyBooksOfSpecialAuthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetAllBooks">
+                  </a> <!-- verifyGetAllBooks -->
+                  <span class="method-name">verifyGetAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetBookById">
+                  </a> <!-- verifyGetBookById -->
+                  <span class="method-name">verifyGetBookById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostBook">
+                  </a> <!-- verifyPostBook -->
+                  <span class="method-name">verifyPostBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPostBookWrong">
+                  </a> <!-- verifyPostBookWrong -->
+                  <span class="method-name">verifyPostBookWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateBook">
+                  </a> <!-- verifyUpdateBook -->
+                  <span class="method-name">verifyUpdateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AuthorTests&quot;/&gt;
+      &lt;class name=&quot;BaseTest&quot;/&gt;
+      &lt;class name=&quot;BookTests&quot;/&gt;
+      &lt;class name=&quot;GenreTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">require_prep</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBooksOfSpecialAuthor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetAuthorById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetBookById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetGenreById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostAuthor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPostGenre</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchBookAuthor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUpdateAuthor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUpdateBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUpdateGenre</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyDeleteAuthor')
+data.setCell(0, 2, 'AuthorTests')
+data.setCell(0, 3, 9623);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyDeleteBook')
+data.setCell(1, 2, 'BookTests')
+data.setCell(1, 3, 242);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySearchAuthorsByName')
+data.setCell(2, 2, 'AuthorTests')
+data.setCell(2, 3, 86);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyGetAuthorById')
+data.setCell(3, 2, 'AuthorTests')
+data.setCell(3, 3, 71);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyDeleteGenre')
+data.setCell(4, 2, 'GenreTests')
+data.setCell(4, 3, 69);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchAuthorsByName')
+data.setCell(5, 2, 'AuthorTests')
+data.setCell(5, 3, 64);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyGetAllBooks')
+data.setCell(6, 2, 'BookTests')
+data.setCell(6, 3, 52);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyGetAllAuthors')
+data.setCell(7, 2, 'AuthorTests')
+data.setCell(7, 3, 49);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyPostAuthorWrong')
+data.setCell(8, 2, 'AuthorTests')
+data.setCell(8, 3, 48);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUpdateAuthor')
+data.setCell(9, 2, 'AuthorTests')
+data.setCell(9, 3, 46);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyUpdateGenre')
+data.setCell(10, 2, 'GenreTests')
+data.setCell(10, 3, 41);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUpdateBook')
+data.setCell(11, 2, 'BookTests')
+data.setCell(11, 3, 38);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySearchBookAuthor')
+data.setCell(12, 2, 'AuthorTests')
+data.setCell(12, 3, 37);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyGetAllGenres')
+data.setCell(13, 2, 'GenreTests')
+data.setCell(13, 3, 36);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifySearchAuthorsByName')
+data.setCell(14, 2, 'AuthorTests')
+data.setCell(14, 3, 36);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySearchAuthorsByName')
+data.setCell(15, 2, 'AuthorTests')
+data.setCell(15, 3, 35);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySearchAuthorsByName')
+data.setCell(16, 2, 'AuthorTests')
+data.setCell(16, 3, 34);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyPostGenreWrong')
+data.setCell(17, 2, 'GenreTests')
+data.setCell(17, 3, 33);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyGetBookById')
+data.setCell(18, 2, 'BookTests')
+data.setCell(18, 3, 32);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyBooksOfSpecialAuthor')
+data.setCell(19, 2, 'BookTests')
+data.setCell(19, 3, 30);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyGetGenreById')
+data.setCell(20, 2, 'GenreTests')
+data.setCell(20, 3, 30);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifySearchAuthorsByName')
+data.setCell(21, 2, 'AuthorTests')
+data.setCell(21, 3, 30);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyPostBookWrong')
+data.setCell(22, 2, 'BookTests')
+data.setCell(22, 3, 29);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyPostBook')
+data.setCell(23, 2, 'BookTests')
+data.setCell(23, 3, 10);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyPostAuthor')
+data.setCell(24, 2, 'AuthorTests')
+data.setCell(24, 3, 8);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyPostGenre')
+data.setCell(25, 2, 'GenreTests')
+data.setCell(25, 3, 7);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthorTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteAuthor</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllAuthors</span>
+                <span class="method-start">9660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">9714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAuthorById</span>
+                <span class="method-start">10150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">10222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">10301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPostAuthor</span>
+                <span class="method-start">10410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">10419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyPostAuthorWrong</span>
+                <span class="method-start">10495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Cordia)</span>
+                <span class="method-start">10561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Broderick)</span>
+                <span class="method-start">10650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Alb)</span>
+                <span class="method-start">10687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Kelli)</span>
+                <span class="method-start">10754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Kam)</span>
+                <span class="method-start">10792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchAuthorsByName(Josiah)</span>
+                <span class="method-start">10829 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">10865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBookAuthor</span>
+                <span class="method-start">10996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">11035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">11132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateAuthor</span>
+                <span class="method-start">11289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">11337 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BookTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeleteBook</span>
+                <span class="method-start">11450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">11700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBooksOfSpecialAuthor</span>
+                <span class="method-start">11826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">11862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllBooks</span>
+                <span class="method-start">11934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">11992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetBookById</span>
+                <span class="method-start">12132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">12248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPostBook</span>
+                <span class="method-start">12369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyPostBookWrong</span>
+                <span class="method-start">12454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">12484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateBook</span>
+                <span class="method-start">12605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12645 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GenreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyDeleteGenre</span>
+                <span class="method-start">12723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetAllGenres</span>
+                <span class="method-start">12794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">12832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetGenreById</span>
+                <span class="method-start">12934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">13033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPostGenre</span>
+                <span class="method-start">13134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">13143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyPostGenreWrong</span>
+                <span class="method-start">13240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">13280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateGenre</span>
+                <span class="method-start">13411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">13454 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

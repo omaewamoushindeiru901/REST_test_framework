@@ -1,0 +1,237 @@
+{
+  "uid" : "464d1d038f5159e1",
+  "name" : "verifyUpdateAuthor",
+  "fullName" : "AuthorTests.verifyUpdateAuthor",
+  "historyId" : "e9552d22f3cd9535c9c748a8da47d33e",
+  "time" : {
+    "start" : 1629059789923,
+    "stop" : 1629059790013,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1629059784312,
+      "stop" : 1629059785811,
+      "duration" : 1499
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createAuthor",
+      "time" : {
+        "start" : 1629059789924,
+        "stop" : 1629059789954,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "updateAuthor",
+      "time" : {
+        "start" : 1629059789954,
+        "stop" : 1629059789983,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "updateEntity",
+        "time" : {
+          "start" : 1629059789958,
+          "stop" : 1629059789983,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "obj",
+          "value" : "entity.author.Author@18bb1b88"
+        }, {
+          "name" : "endpoint",
+          "value" : "/api/library/author"
+        }, {
+          "name" : "paramToChange",
+          "value" : "nationality"
+        }, {
+          "name" : "valueToChange",
+          "value" : "japanese"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "response.BaseResponse@56266bda"
+      }, {
+        "name" : "paramToChange",
+        "value" : "nationality"
+      }, {
+        "name" : "valueToChange",
+        "value" : "japanese"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "removeEntity",
+      "time" : {
+        "start" : 1629059789990,
+        "stop" : 1629059790013,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "author"
+      }, {
+        "name" : "entityId",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUpdateAuthor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "3380@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "nationality"
+  }, {
+    "name" : "arg1",
+    "value" : "japanese"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1d1705e7046dc03e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059333856,
+        "stop" : 1629059333918,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "a1c41c2f6eee8124",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059191569,
+        "stop" : 1629059191642,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "63e185afaf4c9d14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058752958,
+        "stop" : 1629058753034,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "83f69d2da0660db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058505744,
+        "stop" : 1629058505801,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "c9708de130c5ab04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058372095,
+        "stop" : 1629058372156,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "deccd007a1564903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629057048720,
+        "stop" : 1629057048782,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "57b546dccf43061f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629056728558,
+        "stop" : 1629056728631,
+        "duration" : 73
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "464d1d038f5159e1.json",
+  "parameterValues" : [ "nationality", "japanese" ]
+}

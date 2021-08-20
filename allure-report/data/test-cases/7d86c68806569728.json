@@ -1,0 +1,225 @@
+{
+  "uid" : "7d86c68806569728",
+  "name" : "verifySearchAuthorsByName",
+  "fullName" : "AuthorTests.verifySearchAuthorsByName",
+  "historyId" : "42dcfd5612fd9582e49aea32a263d0c0",
+  "time" : {
+    "start" : 1629113579985,
+    "stop" : 1629113580002,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "getEntityByNameSearch",
+      "time" : {
+        "start" : 1629113579985,
+        "stop" : 1629113580000,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "authors"
+      }, {
+        "name" : "search",
+        "value" : "Broderick"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySearchAuthorsByName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Broderick"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1edaad4c3d725bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110374425,
+        "stop" : 1629110374523,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "3291ae0d06bd3390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109759812,
+        "stop" : 1629109759831,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "6703f601cf45a873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107459138,
+        "stop" : 1629107459166,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "f447d43f89a89630",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107320337,
+        "stop" : 1629107324397,
+        "duration" : 4060
+      }
+    }, {
+      "uid" : "49acc86646370dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105310645,
+        "stop" : 1629105310663,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "f7fa9ac36957efa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105026641,
+        "stop" : 1629105026664,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "3c065464e7d88064",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104997967,
+        "stop" : 1629104997991,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "46c1a8aa8e710894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104549098,
+        "stop" : 1629104549120,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "3d23e933b5f9cd05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059789456,
+        "stop" : 1629059789483,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "bc26778562653b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059333636,
+        "stop" : 1629059333662,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "3127834423fe7df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059191310,
+        "stop" : 1629059191336,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "eef68e52aa254812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058752741,
+        "stop" : 1629058752766,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "b4ed4adb38884f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058505537,
+        "stop" : 1629058505556,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "c544cdfaca53af04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058371874,
+        "stop" : 1629058371895,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "f78552331bb557d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629057048472,
+        "stop" : 1629057048492,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "c52c2cc92449dd45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629056728285,
+        "stop" : 1629056728306,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d86c68806569728.json",
+  "parameterValues" : [ "Broderick" ]
+}

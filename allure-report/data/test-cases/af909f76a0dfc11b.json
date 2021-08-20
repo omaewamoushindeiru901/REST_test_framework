@@ -1,0 +1,222 @@
+{
+  "uid" : "af909f76a0dfc11b",
+  "name" : "verifyPostAuthorWrong",
+  "fullName" : "AuthorTests.verifyPostAuthorWrong",
+  "historyId" : "4701453486949be58b2c331aac50eb8b",
+  "time" : {
+    "start" : 1629113579885,
+    "stop" : 1629113579904,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "createEntity",
+      "time" : {
+        "start" : 1629113579886,
+        "stop" : 1629113579902,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "entity",
+        "value" : "{\"authorId\":0,\"authorName\":{\"first\":\"Joseph\"},\"nationality\":\"american\",\"birth\":{\"date\":\"1920-09-27\",\"country\":\"America\",\"city\":\"New-York\"},\"authorDescription\":\"The best jojo ever\"}"
+      }, {
+        "name" : "path",
+        "value" : "author"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testClass",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPostAuthorWrong"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "AuthorTests"
+  }, {
+    "name" : "host",
+    "value" : "Kompukter"
+  }, {
+    "name" : "thread",
+    "value" : "5308@Kompukter.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c50c521892587062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629110374183,
+        "stop" : 1629110374213,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "a0b10d02bbc373a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629109759711,
+        "stop" : 1629109759732,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "69b251e2d788802a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629107458977,
+        "stop" : 1629107459026,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "7418ac4a6a2cbf95",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect",
+      "time" : {
+        "start" : 1629107312088,
+        "stop" : 1629107316166,
+        "duration" : 4078
+      }
+    }, {
+      "uid" : "256e1e88f56ccd58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105310523,
+        "stop" : 1629105310555,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "ff9850891fd9f3ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629105026518,
+        "stop" : 1629105026545,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "ca8870ce00a1e0b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104997870,
+        "stop" : 1629104997895,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "76498b8ff1c3b7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629104548945,
+        "stop" : 1629104548978,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "70237396f697ea9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059789328,
+        "stop" : 1629059789354,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "c68afd94bc1c9661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059333292,
+        "stop" : 1629059333317,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "a517d365d1f43937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629059191039,
+        "stop" : 1629059191215,
+        "duration" : 176
+      }
+    }, {
+      "uid" : "3e708bc75fa4407",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058752411,
+        "stop" : 1629058752441,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "55022a602d1c7ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058505461,
+        "stop" : 1629058505484,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "44fe7425eeeefa4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629058371789,
+        "stop" : 1629058371814,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "5e1e2e8a017a24cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629057048346,
+        "stop" : 1629057048391,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "2c0f817319bac0ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629056728173,
+        "stop" : 1629056728215,
+        "duration" : 42
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af909f76a0dfc11b.json",
+  "parameterValues" : [ ]
+}
